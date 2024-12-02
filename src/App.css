@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +39,113 @@
     transform: rotate(360deg);
   }
 }
+
+/*General*/
+
+header{
+  background-color: #282c34;
+
+}
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  height: 750px;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+nav{
+  float: right;
+  margin-top: 40px;
+
+}
+
+.logo{
+  float: left;
+  margin-top: 40px;
+}
+
+header div nav ul li{
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+header div nav ul li a{
+
+color: white;
+text-decoration: none;
+}
+
+
+.contenant{
+  color: white;
+  margin-top: 200px;
+}
+
+.contenant h1{
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-stretch: condensed;
+}
+
+.contenant p{
+  font-size: 20px;
+}
+
+.contenant button{
+
+  width: 200px;
+  background-color: rgb(247, 20, 20);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-style: uppercase;
+}
+
+.contenant button:hover{
+  background-color: rgb(212, 8, 8);
+
+}
+
+
+/*contenant1 */
+
+.element{
+  margin-top: 20px;
+
+}
+
+
+
+.element div h1 a{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.element div .texte{
+text-align: left;
+margin: 10px 0px 10px 0px;
+
+}
+
+.element div .lien{
+  text-align: left;
+  margin: 0px 0px 5px 0px;
+  color: red;
+  font-size: 10px;
+  
+  }
+
+  .element div  a{
+    color: rgb(233, 8, 8);
+  }
+
+  
