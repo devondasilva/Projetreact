@@ -3,7 +3,7 @@ import img3 from '../../public/img3.jpg';
 
 const Header: React.FC = () => {
   return (
-    <header className="" style={{backgroundImage: 'img3'}}>
+    <header className="">
         <div className='wrapper' >
             <img src="logo.png" alt="Logo" className='logo'/>
             <nav>
