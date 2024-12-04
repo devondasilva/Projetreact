@@ -3,7 +3,7 @@ import img3 from '../../public/img3.jpg';
 
 const Header: React.FC = () => {
   return (
-    <header className="">
+    <header style={{ backgroundImage:"url('./first.jpg')", backgroundRepeat: "no-repeat", backgroundSize:"cover", backgroundColor:"black"}}>
         <div className='wrapper' >
             <img src="logo.png" alt="Logo" className='logo'/>
             <nav>
@@ -15,10 +15,10 @@ const Header: React.FC = () => {
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <div className='contenant'>
+            <div className='contenant' style={{textAlign:"center"}}>
                 <h1>Coming Home Never<br/>Felt So Good!</h1>
                 <p><i>Quam a diamlorem explicabo quos fugit, ut aliquam modi.</i></p>
-                <button>Find your style</button>
+                <button style={{ boxShadow:"none"}}>Find your style</button>
             </div>
         </div>
     </header>
