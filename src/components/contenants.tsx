@@ -11,7 +11,7 @@ interface ModifProps {
 
 const Modif: React.FC<ModifProps> = (props) => {
   return (
-    <div className="col-6  mb-6 pe-2" >
+    <div className=" col-6  mb-6 pe-2" >
             <h5 className="card-title fw-bold">
             <a href="#" className="text-decoration-none text-dark fs-4">
               {props.all.titre}

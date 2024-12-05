@@ -2,6 +2,22 @@
 
 import React from 'react';
 
+
+interface EditProps{
+    all: {
+        image: string;
+        titre: string;
+        text: string
+
+    }
+}
+
+
+
+
+
+
+
 const Recherche: React.FC = () => {
   return (
     <div className=' mt-3 mb-4 ms-4'>
