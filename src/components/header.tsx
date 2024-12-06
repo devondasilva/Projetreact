@@ -2,7 +2,7 @@ import logo from '../assets/assets/logo.png';
 import i_1 from '../assets/assets/i_1.jpg';
 
 
-export function Head(){
+export function Header(){
     return(
         <div className=" bg-cover bg-center" style={{ backgroundImage: `url(${i_1})`}}>
           <header className="absolute inset-x-0 top-0 z-50">
