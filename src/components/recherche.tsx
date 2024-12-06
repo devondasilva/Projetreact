@@ -1,22 +1,12 @@
-
-
 import React from 'react';
-
 
 interface EditProps{
     all: {
         image: string;
         titre: string;
         text: string
-
     }
 }
-
-
-
-
-
-
 
 const Recherche: React.FC = () => {
   return (
@@ -70,6 +60,5 @@ const Recherche: React.FC = () => {
     </div>
   )
 }
-
 
 export default Recherche;

@@ -1,17 +1,18 @@
 import React from "react";
 import {Header} from "../components/header";
-import Body from "../components/body";
 import Footer from "../components/footer";
-
-const Living: React.FC = () => {
+import MyComponent from "../components/contenants/maps";
+const Contact: React.FC = () => {
     
     return (
         <div className="App">
             <Header />
-            <Body />
+            <>
+            <MyComponent />
+            </>
             <Footer />
       </div>
     )
 }
 
-export default Living;
+export default Contact;

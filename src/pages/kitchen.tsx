@@ -3,7 +3,7 @@ import {Header} from "../components/header";
 import Body from "../components/body";
 import Footer from "../components/footer";
 
-const Living: React.FC = () => {
+const Kitchen: React.FC = () => {
     
     return (
         <div className="App">
@@ -14,4 +14,4 @@ const Living: React.FC = () => {
     )
 }
 
-export default Living;
+export default Kitchen;

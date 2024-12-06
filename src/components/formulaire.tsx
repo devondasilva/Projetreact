@@ -1,7 +1,5 @@
 import React from "react"
 
-
-
 const Formulaire: React.FC = () => {
 
     return (
@@ -11,13 +9,8 @@ const Formulaire: React.FC = () => {
                     <label htmlFor="">Nom</label>
                     <input type="text" placeholder="Entrez votre nom..." />
                 </form>
-
-
-
             </div>
-
     )
 }
-
 
 export default Formulaire;

@@ -1,8 +1,7 @@
 import React from "react";
-import Contenant1 from "./contenant1";
+import Contenant1 from "./contenant1"
 import Contenants from "./contenants";
 import Recherche from "./recherche";
-import Recent_posts from "../posts/recent_posts";
 import Tags from "../tags/tags_list";
 
 
@@ -13,8 +12,8 @@ const Body: React.FC = () => {
         <div className="col">
             <div className="row">
                 <div className="col-8 border-end mt-4">
-                    <Contenant1 />
-                    <Contenants />
+                    <Contenant1/>
+                    <Contenants/>
                 </div>
                 <div className="col-4">
                     <Recherche/>
@@ -24,18 +23,7 @@ const Body: React.FC = () => {
         </div>
 
     </div>
-
-
-
-
     )
-
-
-
-
 }
-
-
-
 
 export default Body;
