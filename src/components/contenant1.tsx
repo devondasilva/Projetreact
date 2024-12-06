@@ -7,21 +7,21 @@ const Contenant1: React.FC = () => {
         "Consectetuer vehicula ab? Blandit? Suspendisse feugiat elementum dictum! Minus eum eveniet, praesentium elementum interdum! Sodales, metus, velit voluptatibus voluptas lorem, etiam vulputate? Aenean possimus montes fugiat"
     ]
   return (
-    <div className='wrapper'>
-        <div className='col '>
-            <div className='element row-fluid'>
-                <div className="element1 col-7 px-4 border-end" style={{float:"left"}}>
+    <div className='wrapper mt-3 '>
+        <div className='col-8'>
+            <div className='element pb-3 '>
+                <div className="element1 pe-4" >
                     <h1 ><a href="" style={{color:"black"}}>{contenants[0]}</a></h1>
-                    <p ><a href="" className='lien'>{contenants[1]}</a></p>
+                    <p className='mb-4'><a href="" className='lien'>{contenants[1]}</a></p>
                     <div >
                         <img src="img2.jpg" alt="cuisine"  className="img-fluid" />
                     </div>
-                    <p className='texte'>{contenants[2]}</p>
-                    <a href="">Read more <i className="fi fi-rr-angle-double-right" style={{height:"2px"}}></i></a>
+                    <p className='texte pb-5 border-bottom row'>{contenants[2]}
+                    <a href="" className='mt-2'>Read more<i className="fi fi-rr-angle-double-right" ></i></a>
+                    </p>
+                    
                 </div>
             </div>
-        </div>
-        <div className='row'>
         </div>
     </div>
   )

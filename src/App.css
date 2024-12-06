@@ -2,7 +2,7 @@
 
 
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -42,10 +42,7 @@
 
 /*General*/
 
-header{
-  background-color: #282c34;
 
-}
 .wrapper{
   width: 1200px;
   margin: 0 auto;
@@ -107,6 +104,8 @@ text-decoration: none;
   border-radius: 10px;
   margin-top: 30px;
   font-style: uppercase;
+  border: none; /* Supprime les bordures */
+  outline: none;
 }
 
 .contenant button:hover{
@@ -148,4 +147,24 @@ margin: 10px 0px 10px 0px;
     color: rgb(233, 8, 8);
   }
 
+
+  .pied{
+    background-color: black;
+    margin-top: 30px;
+
+
+  }
   
+#el{
+  margin-top: 60px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+#copy{
+  float: left;
+  margin-top: 100px;
+  margin-right: 300px;
+  white-space: nowrap;
+
+}

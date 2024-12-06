@@ -1,27 +1,23 @@
-import React from 'react'
-import {Header} from './components/header'
-import Recherche from  './components/recherche'
-import {Pagination} from './components/pagination'
-import Recent_posts from './posts/recent_posts'
+import React from 'react';
+import {Header} from './components/header';
+import Contenant1 from './components/contenant1';
+import Contenants from './components/contenants';
+import Recherche from './components/recherche';
+import Footer from './components/footer';
+import Tags from './tags/tags_list';
+import Recent_posts from './posts/recent_posts';
+import Body from './components/body';
 
-export const App = () => {
+
+function App() {
   return (
-    <div>
-
-<Recherche/>
-
-
-
-      {/* 
-      <Header/>
-      <Pagination/>
-      
-
-      
-      */}
-
-
-
+    <div className="App">
+      <Header />
+      <Body />
+      <Footer />
     </div>
-  )
+  );
 }
+
+export default App;
+
