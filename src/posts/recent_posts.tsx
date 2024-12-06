@@ -1,9 +1,9 @@
 import {Post,Item} from "./post"
-import i2 from "../../assets/assets/i2.jpg"
-import i3 from "../../assets/assets/i3.jpg"
-import i4 from "../../assets/assets/i4.jpg"
-import i5 from "../../assets/assets/i5.jpg"
-import i6 from "../../assets/assets/i6.jpg"
+import i2 from "../assets/assets/i2.jpg"
+import i3 from "../assets/assets/i3.jpg"
+import i4 from "../assets/assets/i4.jpg"
+import i5 from "../assets/assets/i5.jpg"
+import i6 from "../assets/assets/i6.jpg"
 
 export default function Recent_posts() {
   const tab: Post[] = [
