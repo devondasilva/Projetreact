@@ -1,19 +1,10 @@
 import React from 'react';
 
-
-
-
-
-
-
 const Contenant1: React.FC = () => {
     const contenants =[
-        
         "Consectetuer vehicula ab",
         "November 21, 2017 / Kitchen, Lifestyle",
         "Consectetuer vehicula ab? Blandit? Suspendisse feugiat elementum dictum! Minus eum eveniet, praesentium elementum interdum! Sodales, metus, velit voluptatibus voluptas lorem, etiam vulputate? Aenean possimus montes fugiat"
-        
-
     ]
   return (
     <div className='wrapper'>
@@ -31,7 +22,6 @@ const Contenant1: React.FC = () => {
             </div>
         </div>
         <div className='row'>
-            
         </div>
     </div>
   )
