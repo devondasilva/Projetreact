@@ -26,7 +26,10 @@ const Contenant1: React.FC = () => {
                         <img src="img2.jpg" alt="cuisine"  className="img-fluid" />
                     </div>
                     <p className='texte pb-5 border-bottom row'>{contenants[2]}
-                    <a href="" className='mt-2'>Read more<i className="fi fi-rr-angle-double-right" ></i></a>
+                    <a href="#" className="mt-2">
+                    Read more <i className='fas'>&#xf101;</i>
+                    </a>
+
                     </p>
                     
                 </div>

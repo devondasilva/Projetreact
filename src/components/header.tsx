@@ -5,18 +5,19 @@ const Header: React.FC = () => {
   return (
     <header style={{ backgroundImage:"url('./first.jpg')", backgroundRepeat: "no-repeat", backgroundSize:"cover", backgroundColor:"black"}}>
         <div className='wrapper' >
-            <img src="logo.png" alt="Logo" className='logo' 
+            <a href="/"><img src="logo.png" alt="Logo" className='logo' 
                 onClick={()=>{
                     alert("Devon t'es trop cool!");
                 }}
             />
+            </a>
             <nav className='navbar'>
                 <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Living Room</a></li>
-                    <li><a href="">Kitchen</a></li>
-                    <li><a href="">Outdoors</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/AboutUs">About Us</a></li>
+                    <li><a href="/Living">Living Room</a></li>
+                    <li><a href="/Kitchen">Kitchen</a></li>
+                    <li><a href="/Outdoor">Outdoors</a></li>
+                    <li><a href="/Contact">Contact</a></li>
                 </ul>
             </nav>
             <div className='contenant' style={{textAlign:"center"}}>

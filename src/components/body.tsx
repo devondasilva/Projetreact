@@ -1,9 +1,9 @@
 import React from "react";
-import Contenant1 from "./contenant1";
-import Contenants from "./contenants";
-import Recherche from "./recherche";
-import Recent_posts from "../posts/recent_posts";
-import Tags from "../tags/tags_list";
+import Contenant1 from "./contenants/contenant1";
+import Contenants from "./contenants/contenants";
+import Recherche from "./contenants/recherche";
+import Recent_posts from "./contenants/posts/recent_posts";
+import Tags from "./contenants/tags/tags_list";
 
 
 const Body: React.FC = () => {
