@@ -50,17 +50,7 @@ const Recherche: React.FC = () => {
                 </div>
             </div>
         </div>
-        
-
-        
-
     </div>
-
-
-
-
-
-
   )
 }
 
