@@ -1,5 +1,8 @@
 import React from "react";
-
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa6";
 
 
 const Footer: React.FC = () => {
@@ -15,9 +18,10 @@ const Footer: React.FC = () => {
                             <div className="col-4" style={{textAlign:"center"}}>
                                 <h3 className="fw-bold mb-4">SOCIAL</h3>
                                 <div className="d-flex" style={{textAlign:"center", justifyContent:"center"}}>
-                                    <img src="https://websitedemos.net/blog-02/?customize=template" alt="" style={{width:"30px",height:"auto", margin:"5px", color: "white"}}/>
-                                    <img src="facebook.png" alt="" style={{width:"30px",height:"auto", margin:"5px", color: "white"}}/>
-                                    <img src="facebook.png" alt="" style={{width:"30px",height:"auto", margin:"5px"}}/>
+                                    <a href="" id="ic"><FaSquareFacebook /></a>
+                                    <a href="" id="ic"><FaTwitter /></a>
+                                    <a href="" id="ic"><FaInstagramSquare /></a>
+                                    <a href="" id="ic"><FaPinterest/></a>
                                 </div>
                             </div>
                             <div className="col-4" style={{textAlign:"center"}}>
@@ -38,11 +42,11 @@ const Footer: React.FC = () => {
                         <p id="copy">Copyright © 2024 Home Decor | Powered by Home Decor</p>
                         <nav>
                             <ul className="d-flex">
-                                <li id="el"><a href="">About Us</a></li>
-                                <li id="el"><a href="">Living Room</a></li>
-                                <li id="el"><a href="">Kitchen</a></li>
-                                <li id="el"><a href="">Outdoors</a></li>
-                                <li id="el"><a href="">Contact</a></li>
+                                <li id="el"><a href="/AboutUs">About Us</a></li>
+                                <li id="el"><a href="/Living">Living Room</a></li>
+                                <li id="el"><a href="/Kitchen">Kitchen</a></li>
+                                <li id="el"><a href="/Outdoor">Outdoors</a></li>
+                                <li id="el"><a href="/Contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>

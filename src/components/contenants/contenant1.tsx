@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 
 
@@ -25,11 +26,8 @@ const Contenant1: React.FC = () => {
                     <div >
                         <img src="img2.jpg" alt="cuisine"  className="img-fluid" />
                     </div>
-                    <p className='texte pb-5 border-bottom row'>{contenants[2]}
-                    <a href="#" className="mt-2">
-                    Read more <i className='fas'>&#xf101;</i>
-                    </a>
-
+                    <p className='texte pb-4 border-bottom row'>{contenants[2]}
+                        <a href='' className='d-flex mt-3' style={{fontSize:"14px", color:"red"}}>Read more  <span style={{marginTop:"6px", marginLeft:"5px" ,fontSize:"12px", color:"red"}}><MdKeyboardDoubleArrowRight /></span></a>
                     </p>
                     
                 </div>

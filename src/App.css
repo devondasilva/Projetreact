@@ -168,3 +168,40 @@ margin: 10px 0px 10px 0px;
   white-space: nowrap;
 
 }
+
+
+#ic{
+margin-top: 30px;
+font-size: 20px;
+margin-right: 10px;
+width: 35px;
+height: 35px;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+justify-content: center;
+align-content: center;
+align-items: center;
+padding-left: 8px;
+  
+}
+
+#ic:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+
+#suite{
+  width: 40px;
+  height: 40px;
+  border: solid 1px #fe1e21;;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  padding-top: 5px;
+
+}
+
+#suite:hover{
+  background-color: #fe1e21;
+}
+

@@ -11,13 +11,13 @@ const Header: React.FC = () => {
                 }}
             />
             </a>
-            <nav className='navbar'>
-                <ul>
-                    <li><a href="/AboutUs">About Us</a></li>
-                    <li><a href="/Living">Living Room</a></li>
-                    <li><a href="/Kitchen">Kitchen</a></li>
-                    <li><a href="/Outdoor">Outdoors</a></li>
-                    <li><a href="/Contact">Contact</a></li>
+            <nav className='navbar navbar-nav ' >
+                <ul >
+                    <li className="nav-item"><a className="nav-link" href="/AboutUs" style={{color:"white "}}>About Us</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/Living" style={{color:"white "}}>Living Room</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/Kitchen" style={{color:"white "}}>Kitchen</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/Outdoor" style={{color:"white "}}>Outdoors</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/Contact" style={{color:"white "}}>Contact</a></li>
                 </ul>
             </nav>
             <div className='contenant' style={{textAlign:"center"}}>

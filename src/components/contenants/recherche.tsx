@@ -1,14 +1,15 @@
 
 
 import React from 'react';
+import { TfiSearch } from "react-icons/tfi";
 
 const Recherche: React.FC = () => {
   return (
     <div className=' mt-3 mb-4 ms-4'>
         <div className='d-block mb-4' >
-            <div className='border p-2 mt-4'>
+            <div className='border p-2 mt-4 d-flex'>
                 <input type="text" placeholder='Search...' style={{width:"100%",}}/>
-                <i className="fi fi-br-search"></i>
+                <span style={{marginTop:"8px"}}><TfiSearch /></span>
             </div>
         </div>
         <div className='p-4 border border-4 rounded-end'>

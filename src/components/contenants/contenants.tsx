@@ -1,4 +1,8 @@
 import React from 'react';
+import { IoArrowForward } from "react-icons/io5";
+
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { useState } from 'react';
 
 interface ModifProps {
   all: {
@@ -27,6 +31,7 @@ const Modif: React.FC<ModifProps> = (props) => {
             />
             <div className="card-body border-bottom">
               <p className="card-text mt-4 mb-4" style={{fontSize:"15px"}}>{props.all.texte}</p>
+              <a href='' className='d-flex' style={{fontSize:"14px", color:"red"}}>Read more  <span style={{marginTop:"6px", marginLeft:"5px" ,fontSize:"12px", color:"red"}}><MdKeyboardDoubleArrowRight /></span></a>
             </div>
           </div>
     </div>
@@ -65,6 +70,23 @@ const Contenants: React.FC = () => {
     },
   ];
 
+  const [isHovered, setIsHovered] = useState(false);
+  const nextStyle = {
+    width: "100px",
+    height: "40px",
+    border: "solid 1px #fe1e21",
+    color: isHovered ? "#ffffff" : "#fe1e21",
+    backgroundColor: isHovered ? "#fe1e21" : "transparent",
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    paddingTop: "5px",
+    paddingBottom: "5px",
+    cursor: "pointer",
+    textDecoration: "none",
+    textAlign: "center" as const,
+    display: "inline-block",
+  };
+
   return (
     <div className="container col-8 pb-4" >
       <div className="row ">
@@ -72,6 +94,21 @@ const Contenants: React.FC = () => {
           <Modif key={index} all={contenant} />
         ))}
       </div>
+      <div className='d-flex' style={{marginLeft:"300px", marginTop:"60px"}}>
+        <div className='d-flex' style={{textAlign:"center", justifyContent:"center"}}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}>
+          <a href="" id='suite'> 1</a>
+          <a href="/page1" id='suite'> 2</a>
+          <a href="" id='suite'> 3</a>
+        </div>
+        <div 
+            style={{ marginLeft: "200px" }}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>
+            <a href="/page1" id="next" className='d-flex' style={nextStyle}>Next <span style={{marginLeft:"8px", marginTop:"5px"}}><IoArrowForward /></span></a>
+        </div>
+        </div>
     </div>
   );
 };

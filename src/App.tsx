@@ -12,6 +12,7 @@ import Kitchen from './pages/kitchen';
 import AboutUs from './pages/aboutUs';
 import Outdoor from './pages/Outdoor';
 import Living from './pages/Living';
+import Pagecont1 from './pages/pagecont1';
 
 
 interface ChangeRoute{
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "/Living",
     element: < Living/>,
+  },
+  {
+    path: "/page1",
+    element: < Pagecont1/>,
   }
 ]);
 
