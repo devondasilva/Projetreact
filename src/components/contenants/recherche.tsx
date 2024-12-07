@@ -7,7 +7,7 @@ const Recherche: React.FC = () => {
   return (
     <div className=' mt-3 mb-4 ms-4'>
         <div className='d-block mb-4' >
-            <div className='border p-2 mt-4 d-flex'>
+            <div className='border p-2 mt-4 d-flex' style={{backgroundColor:"white"}}>
                 <input type="text" placeholder='Search...' style={{width:"100%",}}/>
                 <span style={{marginTop:"8px"}}><TfiSearch /></span>
             </div>

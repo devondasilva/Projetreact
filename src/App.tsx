@@ -11,7 +11,7 @@ import Contact from './pages/contact';
 import Kitchen from './pages/kitchen';
 import AboutUs from './pages/aboutUs';
 import Outdoor from './pages/Outdoor';
-import Living from './pages/Living';
+import {Living} from './pages/Living';
 import Pagecont1 from './pages/pagecont1';
 
 

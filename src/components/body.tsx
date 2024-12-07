@@ -4,6 +4,7 @@ import Contenants from "./contenants/contenants";
 import Recherche from "./contenants/recherche";
 import Recent_posts from "./contenants/posts/recent_posts";
 import Tags from "./contenants/tags/tags_list";
+import Formulaire from "./formulaire";
 
 
 const Body: React.FC = () => {
@@ -22,7 +23,8 @@ const Body: React.FC = () => {
                 </div>
             </div>
         </div>
-
+        <div>
+        </div>
     </div>
 
 

@@ -1,8 +1,37 @@
+@media (max-width: 768px) {
+  .wrapper {
+      width: 100%;
+      padding: 10px;
+  }
+  .contenant h1 {
+      font-size: 50px;
+  }
+  .contenant button {
+      width: 150px;
+  }
+}
 
+:root {
+  --primary-color: #FF0E47;
+  --secondary-color: #342828;
+  --light-color: #ffffff;
+  --dark-color: #000000;
+}
+.contenant button {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+#ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .App {
   text-align: left;
+  background-color: #efefef;
 }
 
 .App-logo {
@@ -17,7 +46,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #342828;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -57,7 +86,7 @@ a{
 
 nav{
   float: right;
-  margin-top: 40px;
+  margin-top: 20px;
 
 }
 
@@ -78,10 +107,23 @@ color: white;
 text-decoration: none;
 }
 
+.tout{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Noir avec opacité 50% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .contenant{
+  
   color: white;
-  margin-top: 200px;
+  margin-top: 250px;
+
+
 }
 
 .contenant h1{
@@ -98,14 +140,13 @@ text-decoration: none;
 .contenant button{
 
   width: 200px;
-  background-color: rgb(247, 20, 20);
+  background-color: #FF0E47;
   color: white;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px;
   margin-top: 30px;
-  font-style: uppercase;
   border: none; /* Supprime les bordures */
   outline: none;
+  transition: 5ms;
 }
 
 .contenant button:hover{

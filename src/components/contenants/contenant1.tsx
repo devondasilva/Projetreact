@@ -21,7 +21,7 @@ const Contenant1: React.FC = () => {
         <div className='col-8'>
             <div className='element pb-3 '>
                 <div className="element1 pe-4" >
-                    <h1 ><a href="" style={{color:"black"}}>{contenants[0]}</a></h1>
+                    <h1 ><a href="/page1" style={{color:"black"}}>{contenants[0]}</a></h1>
                     <p className='mb-4'><a href="" className='lien'>{contenants[1]}</a></p>
                     <div >
                         <img src="img2.jpg" alt="cuisine"  className="img-fluid" />

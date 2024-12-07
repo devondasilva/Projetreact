@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import Contenants from "../components/contenants/contenants";
 import Recherche from "../components/recherche";
 import Tags from "../components/contenants/tags/tags_list";
+import Formulaire from "../components/formulaire";
 
 const Pagecont1: React.FC = () => {
     
@@ -23,7 +24,11 @@ const Pagecont1: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                <Formulaire/>
             </div>
+            </div>
+           
             <Footer/>
         </div>
 
