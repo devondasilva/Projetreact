@@ -15,7 +15,7 @@ export default function Recent_posts() {
   ];
 
   return (
-      <div className="border-4 rounded mx-auto mb-10 max-w-xl py-5 px-2">
+    <div className="border-4 rounded mx-auto mb-10 max-w-xl py-5 px-2 ms-4 me-4">
         <p className="ml-3 font-bold text-2xl">Recent Posts</p>
           {tab.map((post, i) => (
             <div className={i !== tab.length-1? "border-b " : ""}>

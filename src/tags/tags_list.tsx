@@ -15,7 +15,7 @@ export default function Tags() {
   ];
 
   return (
-      <div className="border-4 mx-auto max-w-xl py-4 px-2 ms-4">
+      <div className="border-4 rounded mx-auto mb-10 max-w-xl py-5 px-2 ms-4 me-4">
         <p className="ml-3 font-bold text-2xl">Tags</p>
         <div className='flex flex-wrap' >
           {tab2.map((tag, i) => (

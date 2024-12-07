@@ -19,7 +19,6 @@ const Contenant1: React.FC = () => {
                     <p className='texte pb-5 border-bottom row'>{contenants[2]}
                     <a href="" className='mt-2'>Read more<i className="fi fi-rr-angle-double-right" ></i></a>
                     </p>
-                    
                 </div>
             </div>
         </div>

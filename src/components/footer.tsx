@@ -14,6 +14,7 @@ const Footer: React.FC = () => {
                                 <h3 className="fw-bold mb-4">SOCIAL</h3>
                                 <div className="d-flex" style={{textAlign:"center", justifyContent:"center"}}>
                                     <img src="https://websitedemos.net/blog-02/?customize=template" alt="" style={{width:"30px",height:"auto", margin:"5px", color: "white"}}/>
+                                    <img src="https://websitedemos.net/blog-02/?customize=template" alt="" style={{width:"30px",height:"auto", margin:"5px", color: "white"}}/>
                                     <img src="facebook.png" alt="" style={{width:"30px",height:"auto", margin:"5px", color: "white"}}/>
                                     <img src="facebook.png" alt="" style={{width:"30px",height:"auto", margin:"5px"}}/>
                                 </div>
@@ -28,25 +29,26 @@ const Footer: React.FC = () => {
                                     <br/>contact@example.com
                                 </p>
                             </div>
-
                         </div>
-
                     </div>
-                    <div className="d-flex">
-                        <p id="copy">Copyright © 2024 Home Decor | Powered by Home Decor</p>
-                        <nav>
-                            <ul className="d-flex">
-                                <li id="el"><a href="">About Us</a></li>
-                                <li id="el"><a href="">Living Room</a></li>
-                                <li id="el"><a href="">Kitchen</a></li>
-                                <li id="el"><a href="">Outdoors</a></li>
-                                <li id="el"><a href="">Contact</a></li>
-                            </ul>
-                        </nav>
+                    <div className="w-full">
+                        <div className="mx-auto max-w-7xl py-5 px-2">
+                            <div className="justify-between flex px-8 w-full py-5">
+                                <div className="flex items-center text-white justify-center ">
+                                    Copyright © 2024 Home Decor | Powered by Home Decor
+                                </div>
+                                <div className=" lg:flex lg:gap-x-5">
+                                    <a href="#" className="text-sm/6 text-white">About Us</a>
+                                    <a href="#" className="text-sm/6 text-white">Living Room</a>
+                                    <a href="#" className="text-sm/6 text-white">Kitchen</a>
+                                    <a href="#" className="text-sm/6 text-white">Outdoors</a>
+                                    <a href="#" className="text-sm/6 text-white">Contact</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
-
-            </div>
+        </div>
     )
 }
 
