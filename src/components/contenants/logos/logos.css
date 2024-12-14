@@ -1,0 +1,17 @@
+.logos-section {
+    padding: 30px;
+    background: #f9f9f9;
+    /*text-align: center;*/
+  }
+  
+  .logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .logos-container img {
+    width: 100px;
+    height: auto;
+  }
+  

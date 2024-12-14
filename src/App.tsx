@@ -1,43 +1,72 @@
 import React from 'react';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  RouterProviderProps,
+} from "react-router-dom";
 import './App.css';
-import Header from './components/header';
-import Contenant1 from './components/contenant1';
-import Contenants from './components/contenants';
-import Recherche from './components/recherche';
+import Home from './pages/Home';
+import Contact from './pages/contact';
+import Kitchen from './pages/kitchen';
+import AboutUs from './pages/aboutUs';
+import Outdoor from './pages/Outdoor';
+import {Living} from './pages/Living';
+import Pagecont1 from './pages/pagecont1';
+
+
+interface ChangeRoute{
+  all: {
+    path: string,
+    element: RouterProviderProps
+  }
+}
 
 
 
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: < Home/>,
+  },
+  {
+    path: "/Contact",
+    element: < Contact/>,
+    
+  },
+  {
+    path: "/Kitchen",
+    element: < Kitchen/>,
+    
+  },
+  {
+    path: "/AboutUs",
+    element: < AboutUs/>,
+  },
+  {
+    path: "/Outdoor",
+    element: < Outdoor/>,
+  },
+  {
+    path: "/Living",
+    element: < Living/>,
+  },
+  {
+    path: "/page1",
+    element: < Pagecont1/>,
+  }
+]);
 
 function App() {
   return (
-    <div>
-      <div className="App">
-          <Header />
-      </div>
-      <div className=' wrapper col mt-4 pt-4'>
-        <div className='row'>
-          <div className='col-8'>
-            <div className='row-fluid'>
-              <Contenant1 />
-            </div>
-            <div className='row-fluid'>
-              <Contenants />
-            </div>
-            
-          </div>
-          <div className='col-4'>
-            <Recherche />
-          </div>
-        </div>
-           
-       
-        
-          
-      </div>
+    <div className="App">
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
+      
     </div>
-    
   );
 }
 
 export default App;
+
